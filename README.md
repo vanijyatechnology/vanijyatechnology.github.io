@@ -4,4 +4,4 @@
 **Contact us** @ vanijyatechnology@gmail.com
 >or
 
-**Website** @ [www.vanijya.tech](https://vanijya.tech)
+**Website** @ [www.vanijyatech.in](https://vanijyatech.in)
