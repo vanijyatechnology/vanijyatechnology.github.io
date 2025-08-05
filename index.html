@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vanijya Technology - Innovative Web & Software Solutions</title>
+    
+    <!-- SEO Meta Tags -->
+    <title>Vanijya Technology | Custom Web, Software & AI Solutions</title>
+    <meta name="description" content="Vanijya Technology is a leading digital agency in Meerut, India, specializing in web development, custom software, AI chatbots, and automation to scale your business.">
+    <meta name="keywords" content="web development, custom software, ai chatbot, shopify developer, salesforce development, seo services, digital agency meerut, php, laravel, react, python">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.facebook.com/vanijyatechnology">
+    <meta property="og:title" content="Vanijya Technology | Custom Web, Software & AI Solutions">
+    <meta property="og:description" content="Expert web development, custom software, AI chatbots, and automation solutions to scale your business.">
+    <meta property="og:image" content="https://vanijyatech.in/wp-content/uploads/2024/02/avatar-vanijya-365x100-1.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://twitter.com/vanijyatech">
+    <meta property="twitter:title" content="Vanijya Technology | Custom Web, Software & AI Solutions">
+    <meta property="twitter:description" content="Expert web development, custom software, AI chatbots, and automation solutions to scale your business.">
+    <meta property="twitter:image" content="https://vanijyatech.in/wp-content/uploads/2024/02/avatar-vanijya-365x100-1.png">
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <style>
         body {
             font-family: 'Inter', sans-serif;
@@ -60,6 +80,14 @@
         .glow-button:hover {
             box-shadow: 0 0 15px #01bfbc, 0 0 30px #01bfbc;
         }
+        .tech-chip {
+            transition: all 0.3s ease;
+        }
+        .tech-chip:hover {
+            background-color: #01bfbc;
+            color: #111827;
+            transform: scale(1.05);
+        }
     </style>
 </head>
 <body class="bg-gray-900 text-gray-200">
@@ -71,7 +99,7 @@
             <h1 class="text-2xl font-bold">Vanijya<span class="primary-color">Tech</span></h1>
             <nav class="hidden md:flex space-x-8 items-center">
                 <a href="#services" class="hover:primary-color transition-colors">Services</a>
-                <a href="#about" class="hover:primary-color transition-colors">About</a>
+                <a href="#tech-stack" class="hover:primary-color transition-colors">Technology</a>
                 <a href="#contact" class="hover:primary-color transition-colors">Contact</a>
                 <a href="https://vanijyatech.in/contact_us-website-design-development-company/" target="_blank" class="bg-primary text-gray-900 font-semibold px-5 py-2 rounded-lg hover:bg-opacity-90 transition-colors">Get a Quote</a>
             </nav>
@@ -83,7 +111,7 @@
         </header>
         <div id="mobile-menu" class="hidden md:hidden bg-gray-800">
             <a href="#services" class="block py-2 px-4 text-sm hover:bg-gray-700">Services</a>
-            <a href="#about" class="block py-2 px-4 text-sm hover:bg-gray-700">About</a>
+            <a href="#tech-stack" class="block py-2 px-4 text-sm hover:bg-gray-700">Technology</a>
             <a href="#contact" class="block py-2 px-4 text-sm hover:bg-gray-700">Contact</a>
             <a href="https://vanijyatech.in/contact_us-website-design-development-company/" target="_blank" class="block py-2 px-4 text-sm hover:bg-gray-700 bg-primary text-gray-900 font-semibold">Get a Quote</a>
         </div>
@@ -155,37 +183,57 @@
                     <a href="https://vanijyatech.in/website-maintenance-support-service/" target="_blank" class="service-card bg-gray-800 p-6 rounded-xl border border-gray-700">
                         <h4 class="text-lg font-semibold primary-color">Website Maintenance</h4>
                     </a>
-                     <a href="https://vanijyatech.in/business-email-service/" target="_blank" class="service-card bg-gray-800 p-6 rounded-xl border border-gray-700">
-                        <h4 class="text-lg font-semibold primary-color">Business Email Service</h4>
-                    </a>
                 </div>
             </section>
 
-            <section id="about" class="py-20 flex flex-col md:flex-row items-center gap-12 section-reveal">
-                <div class="md:w-1/2">
-                    <h3 class="text-3xl md:text-4xl font-bold mb-4">Who We Are</h3>
-                    <p class="text-gray-400 mb-4">
-                        Vanijya Technology is a team of passionate developers, designers, and strategists dedicated to delivering excellence. We partner with businesses to transform their ideas into powerful digital realities. Our approach is collaborative, transparent, and focused on results.
-                    </p>
-                    <a href="#contact" class="text-lg font-semibold primary-color hover:underline">Let's build together &rarr;</a>
+            <section id="tech-stack" class="py-20 section-reveal">
+                <div class="text-center mb-12">
+                    <h3 class="text-3xl md:text-4xl font-bold">Technologies We Use</h3>
+                    <p class="text-gray-400 mt-2">Leveraging modern tech to build robust solutions.</p>
                 </div>
-                <div class="md:w-1/2">
-                    <img src="https://placehold.co/600x400/1F2937/01bfbc?text=Our+Team" alt="Vanijya Technology Team" class="rounded-xl shadow-lg w-full">
+                <div class="flex flex-wrap justify-center items-center gap-4 max-w-4xl mx-auto">
+                    <span class="tech-chip bg-gray-800 border border-gray-700 rounded-full px-5 py-2 text-lg font-medium">PHP</span>
+                    <span class="tech-chip bg-gray-800 border border-gray-700 rounded-full px-5 py-2 text-lg font-medium">Laravel</span>
+                    <span class="tech-chip bg-gray-800 border border-gray-700 rounded-full px-5 py-2 text-lg font-medium">React</span>
+                    <span class="tech-chip bg-gray-800 border border-gray-700 rounded-full px-5 py-2 text-lg font-medium">MySQL</span>
+                    <span class="tech-chip bg-gray-800 border border-gray-700 rounded-full px-5 py-2 text-lg font-medium">MongoDB</span>
+                    <span class="tech-chip bg-gray-800 border border-gray-700 rounded-full px-5 py-2 text-lg font-medium">Python</span>
+                    <span class="tech-chip bg-gray-800 border border-gray-700 rounded-full px-5 py-2 text-lg font-medium">AI / ML</span>
+                    <span class="tech-chip bg-gray-800 border border-gray-700 rounded-full px-5 py-2 text-lg font-medium">TensorFlow</span>
+                    <span class="tech-chip bg-gray-800 border border-gray-700 rounded-full px-5 py-2 text-lg font-medium">OpenCV</span>
+                    <span class="tech-chip bg-gray-800 border border-gray-700 rounded-full px-5 py-2 text-lg font-medium">Node.js</span>
+                    <span class="tech-chip bg-gray-800 border border-gray-700 rounded-full px-5 py-2 text-lg font-medium">Vue.js</span>
+                    <span class="tech-chip bg-gray-800 border border-gray-700 rounded-full px-5 py-2 text-lg font-medium">Docker</span>
                 </div>
             </section>
 
             <section id="contact" class="py-20 text-center section-reveal">
                 <h3 class="text-3xl md:text-4xl font-bold">Have a project in mind?</h3>
                 <p class="text-gray-400 mt-2 mb-8 max-w-2xl mx-auto">We'd love to hear about it. Reach out to us and let's discuss how we can help you achieve your goals.</p>
-                <a href="mailto:contact@vanijyatech.in" class="bg-transparent border-2 border-primary text-primary font-bold text-lg px-8 py-4 rounded-full inline-block hover:bg-primary hover:text-gray-900 transition-all duration-300">
-                    contact@vanijyatech.in
-                </a>
+                <div class="flex flex-col md:flex-row justify-center items-center gap-6">
+                    <a href="mailto:info@vanijyatech.in" class="bg-primary text-gray-900 font-bold text-lg px-8 py-4 rounded-full inline-block glow-button">
+                        Email for Query
+                    </a>
+                    <a href="mailto:vanijyatechnology@gmail.com" class="bg-transparent border-2 border-primary text-primary font-bold text-lg px-8 py-4 rounded-full inline-block hover:bg-primary hover:text-gray-900 transition-all duration-300">
+                        Email for Sales
+                    </a>
+                </div>
+                 <p class="text-gray-400 mt-8">Or call us at: <a href="tel:+919682961127" class="primary-color hover:underline">+91 96829 61127</a></p>
             </section>
         </main>
 
         <footer class="border-t border-gray-800 mt-20">
-            <div class="container mx-auto px-6 py-6 text-center text-gray-500">
-                <p>&copy; 2024 Vanijya Technology. All Rights Reserved.</p>
+            <div class="container mx-auto px-6 py-8">
+                <div class="flex justify-center mb-6 space-x-6">
+                    <a href="https://www.facebook.com/vanijyatechnology" target="_blank" class="text-gray-400 hover:primary-color transition-colors"><i class="fab fa-facebook-f fa-2x"></i></a>
+                    <a href="https://twitter.com/vanijyatech" target="_blank" class="text-gray-400 hover:primary-color transition-colors"><i class="fab fa-twitter fa-2x"></i></a>
+                    <a href="https://www.instagram.com/vanijyatechnology" target="_blank" class="text-gray-400 hover:primary-color transition-colors"><i class="fab fa-instagram fa-2x"></i></a>
+                    <a href="https://in.linkedin.com/company/vanijya-technology" target="_blank" class="text-gray-400 hover:primary-color transition-colors"><i class="fab fa-linkedin-in fa-2x"></i></a>
+                </div>
+                <div class="text-center text-gray-500">
+                    <p>Incubation Forum, MIET, Admin Block, NH-58, Baghpat Road, Bypass Crossing, Meerut (250005) UP (India)</p>
+                    <p class="mt-2">&copy; 2025 Vanijya Technology. All Rights Reserved.</p>
+                </div>
             </div>
         </footer>
     </div>
@@ -277,5 +325,56 @@
         };
 
     </script>
+    
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Vanijya Technology",
+      "image": "https://vanijyatech.in/wp-content/uploads/2024/02/avatar-vanijya-365x100-1.png",
+      "url": "https://vanijyatechnology.github.io/",
+      "telephone": "+919682961127",
+      "email": "info@vanijyatech.in",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Incubation Forum, MIET, Admin Block, NH-58, Baghpat Road, Bypass Crossing",
+        "addressLocality": "Meerut",
+        "addressRegion": "UP",
+        "postalCode": "250005",
+        "addressCountry": "IN"
+      },
+      "hasMap": "https://www.google.com/maps/place/MIET,+Meerut+Institute+of+Engineering+and+Technology/@29.029431,77.669818,15z/",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "10:00",
+          "closes": "19:00"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/vanijyatechnology",
+        "https://twitter.com/vanijyatech",
+        "https://www.instagram.com/vanijyatechnology",
+        "https://in.linkedin.com/company/vanijya-technology"
+      ],
+      "department": [
+        { "@type": "WebSite", "name": "Web Development", "url": "https://vanijyatech.in/web-development/" },
+        { "@type": "WebSite", "name": "eCommerce Development", "url": "https://vanijyatech.in/ecommerce-website-development/" },
+        { "@type": "WebSite", "name": "AI Chatbot Development", "url": "https://vanijyatech.in/ai-chatbot-development/" },
+        { "@type": "WebSite", "name": "Salesforce Development", "url": "https://vanijyatech.in/salesforce-development-service/" },
+        { "@type": "WebSite", "name": "SEO Services", "url": "https://vanijyatech.in/seo-services/" }
+      ]
+    }
+    </script>
+
 </body>
 </html>
